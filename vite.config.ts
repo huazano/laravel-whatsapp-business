@@ -19,6 +19,7 @@ export default defineConfig({
         tailwindcss(),
         wayfinder({
             formVariants: true,
+            php: '/opt/plesk/php/8.3/bin/php',
         }),
     ],
     esbuild: {
